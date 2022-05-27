@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested4</title>
+</head>
+<body>
+    <font color="blue"><h1 align="center">Inner and Outer function with Variable Scope</h1></font>
+    <h1>Syntax:</h1>
+    <h3>var m=0; //global value</h3> 
+    <h3>function parent(p,q) //p,q parent values</h3>
+    <h3>{</h3>
+    <h3>var a=10;//parent value or local value</h3>
+    <h3>function child()</h3>
+    <h3>{</h3>
+    <h3>var b=20;//local value</h3>
+    <h3>//code</h3>
+    <h3>}</h3>
+    <h3>child();</h3>
+    <h3>}</h3>
+    <h3>parent(2,4);</h3>
+        
+        <!-- <script>
+            var m=0; //global value
+            function parent(p,q) //p,q parent values
+            {
+            var a=10;//parent value or local value
+            function child()
+            {
+            var b=20;//local value
+            document.write("Parent value of p "+p+"<br>");//<br>takes output to new line
+            document.write("Parent value of q "+q+"<br>");
+            document.write("Parent value of a "+a+"<br>");
+            document.write("Local value of b "+b+"<br>");
+            document.write("Global value of m "+m);
+            }
+            child();
+            }
+            parent(2,4);
+            </script> -->
+        <script src="jscript4.js"></script>
+</body>
+</html>
