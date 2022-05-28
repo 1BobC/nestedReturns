@@ -8,3 +8,5 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 
 "Work through and experiment with examples to learn about nested functions Also read through EDUCBA anonymous functions and apply to nested functions Repeat this !!"
 
+"Attempted Area of triangle in example 1 Not working Yet !!"
+
