@@ -4,5 +4,6 @@ function addSum (a) {
     return a + b;
     };
     }
-    var out = addSum(5);
+    //var out = addSum(5);
+    const out = addSum(5);
     document.write(out(3));

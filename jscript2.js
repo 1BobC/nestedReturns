@@ -5,7 +5,7 @@ function getAge(name,age)
             }
             function getName(name,age)
             {
-            document.write("I am :"+name+"<br>");//document.write() prints output in a browser
+            document.write("I am :"+name+"<br>");   //document.write() prints output in a browser
             getAge(name,age);
             }
             getName("Amardeep",26);
