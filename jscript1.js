@@ -29,14 +29,15 @@ document.getElementById("bob1").innerHTML = "Hypotenuse of triangle is : "+findH
 document.getElementById("bob2").innerHTML = "Hypotenuse of triangle is : "+findHypotenuse(5,12);
 
 
-
-function findArea(base, height)
+function findArea (base, height)
 {
-    function halfBase(hb);
+    function newBase(base)
     {
-    return  base/2;
+        return base/2;
+        
     }
-    return findArea(hb) * findArea(height);
+    return newBase(base) * height;
 }
-
-document.getElementById("bob3").innerHTML = "Area of triangle is : "+findArea(3,4);
+document.getElementById("bob3").innerHTML = "Area of triangle 1 is : "+findArea(3,4);
+document.getElementById("bob4").innerHTML = "Area of triangle 2 is : "+findArea(1,1);
+document.getElementById("bob5").innerHTML = "Area of triangle 3 is : "+findArea(5,12);

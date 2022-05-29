@@ -10,3 +10,5 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 
 "Attempted Area of triangle in example 1 Not working Yet !!"
 
+"Complete coding Area of Triangle example 1 !!"
+
