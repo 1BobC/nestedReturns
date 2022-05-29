@@ -12,3 +12,4 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 
 "Complete coding Area of Triangle example 1 !!"
 
+"Add base and height entry form, find out more about submitting forms!!"
