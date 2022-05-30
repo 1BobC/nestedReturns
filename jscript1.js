@@ -61,5 +61,6 @@ btn.addEventListener('click', function() {
 
 alert ("Number of options selected: " + howMany(document.selectForm.musicTypes))
 console.log("Number of options selected: " + howMany(document.selectForm.musicTypes))
-document.write("Number of options selected:" + howMany(document.selectForm.musicTypes))
+//document.write("Number of options selected:" + howMany(document.selectForm.musicTypes))
+document.getElementById("bob6").innerHTML= ("Number of options selected: " + howMany(document.selectForm.musicTypes));
 });

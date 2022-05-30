@@ -15,3 +15,5 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 "Add base and height entry form, find out more about submitting forms!!"
 "Continue researching forms"
 "Add MDN example of form input and event listener to ex 1"
+
+"MDN example for ex 1 showing correct answer in DOM"
