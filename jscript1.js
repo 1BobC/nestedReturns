@@ -44,3 +44,22 @@ function findArea (base, height)
 document.getElementById("bob3").innerHTML = "Area of triangle 3 is : "+findArea(10, 10);
 //document.getElementById("bob4").innerHTML = "Area of triangle 4 is : "+findArea(1,1);
 //document.getElementById("bob5").innerHTML = "Area of triangle 5 is : "+findArea(5,12);
+
+//MDN example of form input and event listener
+//MDN loops and iterations exercise to go with html code - a great example!!!
+let howMany = function(selectObject) { 
+let numberSelected = 0;
+for(let i = 0; i < selectObject.options.length; i++) {
+if(selectObject.options[i].selected){
+numberSelected++;
+}
+}
+return numberSelected;
+}
+let btn = document.getElementById('btn');
+btn.addEventListener('click', function() {
+
+alert ("Number of options selected: " + howMany(document.selectForm.musicTypes))
+console.log("Number of options selected: " + howMany(document.selectForm.musicTypes))
+document.write("Number of options selected:" + howMany(document.selectForm.musicTypes))
+});
