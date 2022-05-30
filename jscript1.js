@@ -30,8 +30,8 @@ document.getElementById("bob2").innerHTML = "Hypotenuse of triangle 2 is : "+fin
 
 
 
-document.getElementById("base").submit();
-document.getElementById("height").submit();
+// document.getElementById("base").submit();
+// document.getElementById("height").submit();
 function findArea (base, height)
 {
     function newBase(base)
@@ -41,6 +41,6 @@ function findArea (base, height)
     }
     return newBase(base) * height;
 }
-document.getElementById("bob3").innerHTML = "Area of triangle 3 is : "+findArea(base, height);
+document.getElementById("bob3").innerHTML = "Area of triangle 3 is : "+findArea(10, 10);
 //document.getElementById("bob4").innerHTML = "Area of triangle 4 is : "+findArea(1,1);
 //document.getElementById("bob5").innerHTML = "Area of triangle 5 is : "+findArea(5,12);
