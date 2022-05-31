@@ -37,11 +37,11 @@ document.write("Hypotenuse of triangle is :"+triangleHypotenuse(3,4)); -->
 
     <h1>Adding 'a' and 'b'</h1>
     
-      a: <input type="number" name="a" id="a"><br>
+      <!-- a: <input type="number" name="a" id="a"><br>
       b: <input type="number" name="b" id="b"><br>
       <button onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Add</button>
     
-      <p id="bob4"></p>
+      <p id="bob4"></p> -->
 
 
 <h3>Bob's example from form submitting base and height to calculation of area</h3>
@@ -49,11 +49,12 @@ document.write("Hypotenuse of triangle is :"+triangleHypotenuse(3,4)); -->
 
  <form>   <!--Have removed action="jscript1.js" target="_self"-->
     <label for="base">Base:</label><br>
-    <input type="number" id="base" name="base" value="10"><br>
+    <input type="number" id="selectbase" name="selectbase" ><br>    <!-- value="0" -->
     <label for="height">Height:</label><br>
-    <input type="number" id="height" name="height" value="10"><br><br>
-    <input type="submit" value="Submit">
-  </form> 
+    <input type="number" id="selectheight" name="selectheight" ><br><br>    <!--value="0"-->
+    <!-- <input type="submit" value="Submit"> -->
+    <button onclick="add(document.getElementById('selectbase').value.document.getElementById('selectheight').value)">Submit</button>
+  </form>   
 
   <h1>Areas of triangles using nested functions with return</h1>
   <p id="bob3"></p>

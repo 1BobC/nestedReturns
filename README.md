@@ -19,3 +19,4 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 "MDN example for ex 1 showing correct answer in DOM"
 
 "Add simple research example (working ok) for Bob's example" 
+"Continue debugging Bob's example"
