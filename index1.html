@@ -33,10 +33,21 @@ document.write("Hypotenuse of triangle is :"+triangleHypotenuse(3,4)); -->
     <p id="bob1"></p>
     <p id="bob2"></p>
 
+<h3>Research for Bob's example below</h3>
+
+    <h1>Adding 'a' and 'b'</h1>
+    
+      a: <input type="number" name="a" id="a"><br>
+      b: <input type="number" name="b" id="b"><br>
+      <button onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Add</button>
+    
+      <p id="bob4"></p>
 
 
+<h3>Bob's example from form submitting base and height to calculation of area</h3>
 <h1>Input form for entering base and height of triangle</h1>
-<form action="jscript1.js" target="_self">
+
+ <form>   <!--Have removed action="jscript1.js" target="_self"-->
     <label for="base">Base:</label><br>
     <input type="number" id="base" name="base" value="10"><br>
     <label for="height">Height:</label><br>
@@ -46,7 +57,7 @@ document.write("Hypotenuse of triangle is :"+triangleHypotenuse(3,4)); -->
 
   <h1>Areas of triangles using nested functions with return</h1>
   <p id="bob3"></p>
-  <p id="bob4"></p>
+  
   <p id="bob5"></p>
 
   <h1>MDN example of form input and event listener</h1>

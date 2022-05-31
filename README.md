@@ -17,3 +17,5 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 "Add MDN example of form input and event listener to ex 1"
 
 "MDN example for ex 1 showing correct answer in DOM"
+
+"Add simple research example (working ok) for Bob's example" 

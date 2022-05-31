@@ -29,9 +29,24 @@ document.getElementById("bob1").innerHTML = "Hypotenuse of triangle 1 is : "+fin
 document.getElementById("bob2").innerHTML = "Hypotenuse of triangle 2 is : "+findHypotenuse(5,12);
 
 
+//Research for Bob's example below
 
-// document.getElementById("base").submit();
-// document.getElementById("height").submit();
+      function add(a,b) {
+        let sum = parseInt(a) + parseInt(b);
+        alert(sum);
+        document.getElementById("bob4").innerHTML = "Sum is : "+sum;
+      }
+
+
+//Bob's example from form submitting base and height to calculation of area
+let base = function(selectbase){
+    return base;
+}
+let height = function(selectheight){
+    return height;
+}
+
+
 function findArea (base, height)
 {
     function newBase(base)
@@ -40,7 +55,9 @@ function findArea (base, height)
         
     }
     return newBase(base) * height;
+    
 }
+alert(sum);
 document.getElementById("bob3").innerHTML = "Area of triangle 3 is : "+findArea(10, 10);
 //document.getElementById("bob4").innerHTML = "Area of triangle 4 is : "+findArea(1,1);
 //document.getElementById("bob5").innerHTML = "Area of triangle 5 is : "+findArea(5,12);
