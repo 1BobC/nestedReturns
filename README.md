@@ -20,3 +20,6 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 
 "Add simple research example (working ok) for Bob's example" 
 "Continue debugging Bob's example"
+
+"Create info1 and jsinfo1 to work through InfoWorld Using JavaScript and forms at infoworld.com/article/2077176/using-javascript-and-forms.html"
+"Complete Test Input but must read through several times!!"
