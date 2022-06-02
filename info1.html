@@ -10,13 +10,35 @@
 
     <h1>Test Input</h1>
     <FORM NAME="myform" ACTION="" METHOD="GET">Enter something in the box: <BR>
-        <INPUT TYPE="text" NAME="inputbox" VALUE=""><P>
+         <INPUT TYPE="text" NAME="inputbox" VALUE=""><!-- <P> -->
         <INPUT TYPE="button" NAME="button" Value="Click" onClick="testResults(this.form)">
         </FORM>
+
+    <p id = "bob4" ></p>
+
+    <h1>Base and height input</h1>
+        <form 
+        name = "baseForm" action = "" method = "get">
+        Enter base dimension: <br>
+        <input type = "number" name = "inputbox" value = "">
+        <!-- <input type="button" name="button" value="click" onclick="baseM(this.form)"> -->
+        </form>
+        <form
+        name = "heightForm" action = "" method = "get">
+        Enter height dimension: <br>
+        <input type = "number" name = "inputbox" value = "">
+        <!-- <input type="button" name="button" value="click" onclick="heightM(this.form)"> -->
+        </form>
+
+        <input type="button" name="button" value="click" onclick="baseM(this.form), onclick=heightM(this.form)">
+
+
+    <h1>Calculate area</h1>
     
    
-    
-
+    <p id="bob5"></p>
+    <p id="bob6"></p>
+    <p id="bob7"></p>
 
     <script src="jsinfo1.js"></script>
 </body>

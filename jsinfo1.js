@@ -3,6 +3,7 @@
 function testResults (form) {
     var TestVar = form.inputbox.value;
     alert ("You typed: " + TestVar);
+    document.getElementById("bob4").innerHTML = "You typed : "+ TestVar;
 }
 // Here's how the script works. JavaScript calls the testResults function 
 // when you click the button in the form. The testResults function is 
@@ -15,3 +16,44 @@ function testResults (form) {
 // text box to a variable named TestVar. Notice how the text box contents was referenced. 
 // I defined the form object I wanted to use (called form), the object within the form 
 // that I wanted (called inputbox), and the property of that object I wanted (the value property).
+
+function baseM (form) {
+    let baseM = form.inputbox.value;
+    //alert ("You typed base: " + baseM);
+    
+    return baseM;
+}
+//document.getElementById("bob5").innerHTML = "You typed base: "+ base;
+
+
+function heightM (form) {
+    let heightM = form.inputbox.value;
+    //alert ("You typed height: " + heightM);
+    
+    return heightM;   
+}
+
+alert ("You typed base: " + baseM + " and height:" + heightM);
+// document.getElementById("bob6").innerHTML = "You typed height: "+ height;
+
+
+// let base = function(baseM){
+//     return base;
+// }
+// let height = function(heightM){
+//     return height;
+// }
+
+
+// function findArea (base, height)
+// {
+//     function newBase(base)
+//     {
+//         return base/2;
+        
+//     }
+//     return newBase(base) * height;
+    
+// }
+// alert(findArea(base, height));
+// document.getElementById("bob7").innerHTML = "Area of triangle is : "+findArea(base, height);
