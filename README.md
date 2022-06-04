@@ -24,3 +24,5 @@ Javascript Anonymous Function, JavaScript prompt, JavaScript Custom Events,JavaS
 "Create info1 and jsinfo1 to work through InfoWorld Using JavaScript and forms at infoworld.com/article/2077176/using-javascript-and-forms.html"
 "Complete Test Input but must read through several times!!"
 "OK with Test Input but struggling with inputting two numbers, intensiver suchen!"
+
+"Debugged with help from stackoverflow, working fine now!"
